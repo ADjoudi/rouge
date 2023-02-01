@@ -1,0 +1,58 @@
+footer {
+  width: 100%;
+  background-color: var(--greenish);
+  margin-top: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+  gap: 2rem;
+}
+footer h3 {
+  width: 60%;
+  font-size: 2.5rem;
+  color: white;
+}
+footer #contactInfo {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 0.25rem;
+}
+footer #contactInfo button {
+  border: 2px solid white;
+  flex: 0;
+  height: 12rem;
+  min-width: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: flex 0.5s ease;
+
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+footer #contactInfo button:hover {
+  cursor: pointer;
+}
+footer #contactInfo .classFill {
+  flex: 1;
+}
+#projectLinks {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  padding-left: 2rem;
+}
+#projectLinks a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 400;
+}

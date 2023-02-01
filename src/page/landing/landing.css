@@ -1,0 +1,43 @@
+#landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: max-content;
+  gap: 25rem;
+}
+#content .hero {
+  font-weight: 500;
+  font-size: 12rem;
+  letter-spacing: 0.14em;
+  margin-right: -0.14em;
+  padding: 12rem 0rem 6rem 0rem;
+}
+
+.proposition {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-start;
+  gap: 1rem;
+}
+.proposition button {
+  margin-top: 6rem;
+}
+.proposition h3 {
+  font-weight: 500;
+  font-size: 3.2rem;
+}
+.proposition p {
+  width: 45rem;
+  font-size: 1.7rem;
+  line-height: 3.5rem;
+}
+
+#content .proposition:last-child {
+  align-self: flex-end;
+}

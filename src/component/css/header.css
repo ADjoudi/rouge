@@ -1,0 +1,76 @@
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1.125rem 3.5rem;
+}
+#header h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.875rem;
+  font-weight: 900;
+}
+#header #todayDate {
+  font-size: 1.425rem;
+  font-weight: 500;
+  letter-spacing: 0.14rem;
+  align-self: flex-end;
+}
+#header nav {
+  display: flex;
+  align-items: center;
+  gap: 5.375rem;
+  position: relative;
+}
+#header nav a {
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+#header nav button {
+  font-size: 1.2rem;
+}
+#header nav #profileImage {
+  width: 3.25rem;
+  height: 3.25rem;
+  background-color: black;
+  border-radius: 100%;
+}
+
+/* MENU */
+#menu {
+  position: absolute;
+  top: 120%;
+  right: 0%;
+
+  z-index: 1;
+}
+#menu {
+  background-color: var(--yellowish);
+  width: 13.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 1rem;
+  box-shadow: 0px 9px 22px -11px #1c2e1e;
+}
+#menu li {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  border-bottom: 1px solid hsla(0, 0%, 0%, 0.1);
+}
+#menu h2 {
+  font-size: 1.05rem;
+}
+#menu li:hover {
+  cursor: pointer;
+}
+#menu li:first-child {
+  margin-bottom: 5.375rem;
+}
+#menu li:last-child {
+  margin-top: 5.375rem;
+}
