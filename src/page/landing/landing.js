@@ -1,5 +1,6 @@
 import "./landing.css";
 import React from "react";
+import track from "../../asset/image/track.svg";
 
 import Header from "../../component/header";
 import Footer from "../../component/footer";
@@ -20,6 +21,7 @@ const Landing = () => {
       <Header />
       <div id="content">
         <h1 className="hero">EXPRESSION</h1>
+        <img id="track" src={track} alt="" />
         <div className="proposition">
           <h3>Broadcast your thoughts</h3>
           <p>

@@ -42,10 +42,10 @@
   position: absolute;
   top: 120%;
   right: 0%;
-
   z-index: 1;
 }
 #menu {
+  visibility: hidden;
   background-color: var(--yellowish);
   width: 13.5rem;
   display: flex;
