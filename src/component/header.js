@@ -66,7 +66,9 @@ const Header = (props) => {
         <h2 id="todayDate">{dateFormatted}</h2>
         <nav>
           <a href="/">Home</a>
-          <button href="/">Sign up</button>
+          <a href="/sign-up">
+            <button>Sign up</button>
+          </a>
         </nav>
       </div>
     );

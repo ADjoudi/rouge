@@ -1,0 +1,14 @@
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 12rem;
+  letter-spacing: 0.14em;
+  margin-right: -0.14em;
+  padding: 2rem 0rem;
+}
