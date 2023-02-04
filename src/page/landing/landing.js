@@ -5,19 +5,9 @@ import track from "../../asset/image/track.svg";
 import Header from "../../component/header";
 import Footer from "../../component/footer";
 
-function hideMenu(e) {
-  const menu = document.getElementById("menu");
-  if (
-    e.target.id !== "menu" &&
-    e.target.id !== "profileImage" &&
-    menu.style.visibility === "visible"
-  ) {
-    menu.style.visibility = "hidden";
-  }
-}
 const Landing = () => {
   return (
-    <div id="landing" onClick={hideMenu}>
+    <div id="landing">
       <Header />
       <div id="content">
         <h1 className="hero">EXPRESSION</h1>
