@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 81 81" width="81" height="81">
+	<title>border</title>
+	<defs>
+		<image  width="81" height="81" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFEAAABRAQMAAACQQdh1AAAAAXNSR0IB2cksfwAAAAZQTFRFAAAAAAAApWe5zwAAAAJ0Uk5T/wDltzBKAAAAOUlEQVR4nGNgAIL6/x8YYGBA2PL/weDPMGP//08e+///hiHDhvmXVPZgiSOqsRkY2P//hyftgWADAJ8HExoudX8cAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer 1 copy 3" href="#img1" x="0" y="0"/>
+</svg>

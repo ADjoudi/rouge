@@ -32,7 +32,7 @@ const SignUp = () => {
             name="password2"
             placeholder="Re-enter Password"
           />
-          <section>
+          {/* <section className="checkContainer">
             <input
               type="checkbox"
               id="checkbox"
@@ -43,7 +43,20 @@ const SignUp = () => {
               By signing up you agree to
               <a href="#"> our terms of service</a>
             </p>
-          </section>
+          </section> */}
+          <label class="checkContainer">
+            <p>
+              By signing up you agree to
+              <a href="#"> our terms of service</a>
+            </p>
+            <input
+              type="checkbox"
+              id="checkbox"
+              name="checkbox"
+              placeholder=""
+            />
+            <span class="checkmark"></span>
+          </label>
           <button type="submit">Create Account</button>
         </form>
         <p>
