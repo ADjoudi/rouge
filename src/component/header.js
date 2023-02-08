@@ -19,28 +19,28 @@ function toggleMenu() {
 
 const Menu = () => {
   return (
-    <ul id="menu">
-      <li>
+    <div id="menu">
+      <a href="/post">
         <img src={newPost} alt="" />
         <h2>NEW POST</h2>
-      </li>
-      <li>
+      </a>
+      <a href="/settings">
         <img src={settings} alt="" />
         <h2>SETTINGS</h2>
-      </li>
-      <li>
+      </a>
+      <a href="/archive">
         <img src={archive} alt="" />
         <h2>ARCHIVE</h2>
-      </li>
-      <li>
+      </a>
+      <a href="/profile">
         <img src={profile} alt="" />
         <h2>PROFILE</h2>
-      </li>
-      <li>
+      </a>
+      <a href="/logout">
         <img src={logOut} alt="" />
         <h2>LOG OUT</h2>
-      </li>
-    </ul>
+      </a>
+    </div>
   );
 };
 

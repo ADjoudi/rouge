@@ -32,18 +32,6 @@ const SignUp = () => {
             name="password2"
             placeholder="Re-enter Password"
           />
-          {/* <section className="checkContainer">
-            <input
-              type="checkbox"
-              id="checkbox"
-              name="checkbox"
-              placeholder=""
-            />
-            <p>
-              By signing up you agree to
-              <a href="#"> our terms of service</a>
-            </p>
-          </section> */}
           <label class="checkContainer">
             <p>
               By signing up you agree to

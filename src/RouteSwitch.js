@@ -4,6 +4,7 @@ import SignUp from "./page/signup/signup";
 import Login from "./page/login/login";
 import Home from "./page/home/home";
 import Profile from "./page/profile/profile";
+import Post from "./page/post/post";
 
 import React from "react";
 
@@ -32,6 +33,7 @@ const RouteSwitch = () => {
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
         <Route path="/profile" element={<Profile hideMenu={hideMenu} />} />
+        <Route path="/post" element={<Post hideMenu={hideMenu} />} />
       </Routes>
     </BrowserRouter>
   );

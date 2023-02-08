@@ -4,20 +4,20 @@
   align-items: center;
   position: relative;
 }
-#track {
+#landing #track {
   position: absolute;
   top: 40%;
   transform: scaleX(1.2);
   z-index: 0;
 }
-#content {
+#landing #content {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: max-content;
   gap: 25rem;
 }
-#content .hero {
+#landing #content .hero {
   font-weight: 500;
   font-size: 12rem;
   letter-spacing: 0.14em;
@@ -25,26 +25,26 @@
   padding: 12rem 0rem 6rem 0rem;
 }
 
-.proposition {
+#landing .proposition {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   align-self: flex-start;
   gap: 1rem;
 }
-.proposition button {
+#landing .proposition button {
   margin-top: 6rem;
 }
-.proposition h3 {
+#landing .proposition h3 {
   font-weight: 500;
   font-size: 3.2rem;
 }
-.proposition p {
+#landing .proposition p {
   width: 45rem;
   font-size: 1.7rem;
   line-height: 3.5rem;
 }
 
-#content .proposition:last-child {
+#landing #content .proposition:last-child {
   align-self: flex-end;
 }
