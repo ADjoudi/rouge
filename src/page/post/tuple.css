@@ -1,0 +1,41 @@
+.tuple {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tuple .options {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+}
+.tuple .tupleContent {
+  flex: 1;
+  min-height: 3rem;
+  padding-left: 1rem;
+}
+.tupleContent p {
+  min-width: inherit;
+  min-height: inherit;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.tupleContent h4 {
+  min-width: inherit;
+  min-height: inherit;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.tupleContent h3 {
+  min-width: inherit;
+  min-height: inherit;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.tupleContent h2 {
+  min-width: inherit;
+  min-height: inherit;
+  font-size: 3.5rem;
+  font-weight: 600;
+}

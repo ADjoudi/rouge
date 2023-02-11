@@ -1,0 +1,36 @@
+.article {
+  display: grid;
+  grid-template-areas:
+    "title"
+    "contentTuple";
+}
+.article .title {
+  grid-area: title;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 8rem;
+  border: none;
+  border-bottom: 1px solid hsla(0, 0%, 0%, 0.3);
+  margin: 0;
+  padding: 0;
+  background-color: var(--yellowish);
+  letter-spacing: 0.28rem;
+}
+.article .tuples {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0rem;
+  gap: 0.5rem;
+}
+.article .line {
+  background-color: hsla(0, 0%, 0%, 0.3);
+  transform: rotate(90deg) translate(67rem, 20rem);
+  position: absolute;
+  width: 60rem;
+  height: 1px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border: none;
+}
