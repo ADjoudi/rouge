@@ -29,7 +29,7 @@ const Edit = () => {
   const [key, setKey] = useState(uuidv4());
   const [title, setTitle] = useState("TITLE");
   const [text, setText] = useState([{ id: key, type: "p", value: "" }]);
-  // const [article, setArticle] = useState({ id: uuidv4, title, text });
+  const [article, setArticle] = useState({ id: uuidv4(), title, text });
 
   useEffect(() => {
     setTimeout(() => {
@@ -37,6 +37,11 @@ const Edit = () => {
       element.focus();
     }, 0);
   }, [key]);
+  useEffect(() => {
+    setArticle((prevArticle) => {
+      return { ...prevArticle, title, text };
+    });
+  }, [title, text]);
 
   function addTuple(id) {
     const newKey = uuidv4();
@@ -90,6 +95,7 @@ const Edit = () => {
   }
   function isNotEditable(e) {
     e.currentTarget.contentEditable = false;
+    console.log(article);
   }
   return (
     <div className="article">
