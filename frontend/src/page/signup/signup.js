@@ -13,37 +13,47 @@ const SignUp = () => {
         </div>
         <hr />
         <form action="#" method="post">
-          <input type="text" id="name" name="name" placeholder="Display Name" />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Display Name"
+            required
+          />
           <input
             type="email"
             id="email"
             name="email"
             placeholder="Email@email.com"
+            required
           />
           <input
             type="password"
             id="password1"
             name="password1"
             placeholder="********"
+            required
           />
           <input
             type="password"
             id="password2"
             name="password2"
             placeholder="Re-enter Password"
+            required
           />
           <label class="checkContainer">
-            <p>
-              By signing up you agree to
-              <a href="#"> our terms of service</a>
-            </p>
             <input
               type="checkbox"
               id="checkbox"
               name="checkbox"
               placeholder=""
+              required
             />
             <span class="checkmark"></span>
+            <p>
+              By signing up you agree to
+              <a href="#"> our terms of service</a>
+            </p>
           </label>
           <button type="submit">Create Account</button>
         </form>

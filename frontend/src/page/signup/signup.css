@@ -9,8 +9,14 @@
   font-size: 14px;
 }
 
-input {
+#signup input {
   font-family: "Vesper Libre", serif;
+}
+#signup input:invalid {
+  outline-color: rgba(170, 8, 8);
+}
+#signup input:valid {
+  outline-color: var(--greenish);
 }
 
 #signup {
@@ -98,52 +104,55 @@ input {
 .checkContainer {
   display: flex;
   position: relative;
-  flex-direction: row-reverse;
+  flex-direction: row;
   cursor: pointer;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   gap: 1rem;
 }
 #signup .checkContainer P {
   font-size: 1rem;
 }
-.checkContainer input {
+#signup .checkContainer input {
   position: absolute;
-  opacity: 0;
+  opacity: 0%;
   cursor: pointer;
-  height: 0;
-  width: 0;
+  height: 1rem;
+  width: 1rem;
 }
 
 /* Create a custom checkbox */
-.checkmark {
+#signup .checkmark {
   height: 1rem;
   width: 1rem;
   background-color: hsla(127, 24%, 15%, 0.1);
   border-style: solid;
   border-image: url("../../asset/image/borderCheckbox.svg") 30% stretch;
 }
-.checkContainer input:hover ~ .checkmark {
+#signup .checkContainer input:hover ~ .checkmark {
   background-color: hsla(127, 24%, 15%, 0.4);
 }
-.checkContainer input:checked ~ .checkmark {
+#signup .checkContainer input:checked ~ .checkmark {
   background-color: hsla(127, 24%, 15%, 0.4);
+}
+#signup .checkContainer input:invalid ~ .checkmark {
+  background-color: hsla(0, 98%, 16%, 0.4);
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
+#signup .checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
 /* Show the checkmark when checked */
-.checkContainer input:checked ~ .checkmark:after {
+#signup .checkContainer input:checked ~ .checkmark:after {
   display: block;
 }
 
 /* Style the checkmark/indicator */
-.checkContainer .checkmark:after {
+#signup .checkContainer .checkmark:after {
   left: 0.35rem;
   top: 0.55rem;
   width: 0.2rem;

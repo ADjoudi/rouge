@@ -3,7 +3,7 @@ import "./login.css";
 
 const Login = () => {
   return (
-    <div className="container">
+    <div className="wrapper">
       <div id="login">
         <h1>Login</h1>
         <div class="external">
@@ -18,12 +18,14 @@ const Login = () => {
             id="email"
             name="email"
             placeholder="Email@email.com"
+            required
           />
           <input
             type="password"
             id="password1"
             name="password1"
             placeholder="********"
+            required
           />
           <button type="submit">Create Account</button>
         </form>

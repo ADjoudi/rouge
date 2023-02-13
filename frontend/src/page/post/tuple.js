@@ -12,7 +12,6 @@ const Tuple = ({
   saveTextStateChange,
 }) => {
   function handleKeyInput(e) {
-    console.log(e.key);
     if (e.key === "Enter") {
       e.preventDefault();
       addTuple(e.currentTarget.id);
